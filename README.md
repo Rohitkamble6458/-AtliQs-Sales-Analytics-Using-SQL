@@ -1,45 +1,62 @@
 # 📊 Sales & Product Performance SQL Analysis
 
-This project explores sales, customer, and product data using advanced SQL techniques to extract actionable business insights. It leverages MySQL queries, including Common Table Expressions (CTEs), aggregate functions, and window functions, to analyze performance across fiscal years, product segments, and customer channels.
+A comprehensive SQL analysis project designed to uncover business insights from a retail dataset using MySQL. This project applies advanced SQL techniques such as Common Table Expressions (CTEs), aggregations, joins, and window functions to explore product growth, customer behavior, and sales performance trends across different time periods and market segments.
 
 ---
 
 ## 🚀 Project Overview
 
-The objective of this project is to support strategic decision-making for a retail business by analyzing:
+The project focuses on generating detailed insights to support data-driven decision-making in the following areas:
 
-- **Product growth trends** (year-wise increase in unique products)
-- **High-performing customer segments** by discount and geography
-- **Top-selling products** by division and fiscal year
-- **Sales performance** by month, market, and channel
-- **Quarter-wise and channel-wise gross sales contributions**
+- Year-over-year **product growth analysis**
+- High-performing **customer and market segments**
+- Gross sales trends across **months, channels, and regions**
+- Product segmentation by **manufacturing cost and sales quantity**
+- **Top-performing quarters** based on total quantity sold
 
 ---
 
 ## 🧠 Key Insights
 
-- 📈 **+25% increase** in unique products sold from 2020 to 2021
-- 🏆 Identified **Top 3 products per division** in terms of sales volume (FY 2021)
-- 🇮🇳 Extracted **Top 5 Indian customers** with highest average discounts in FY 2021
-- 📊 Found **Q2 2020** as the best-performing quarter for total quantity sold
-- 📦 Determined highest and lowest **manufacturing cost products**
-- 📉 Calculated **percentage contribution** of each channel to FY 2021 gross sales
+- 📈 **+25% increase** in unique products sold in 2021 vs 2020  
+- 🏆 Identified **Top 3 products per division** in FY 2021 based on quantity sold  
+- 🇮🇳 Extracted **Top 5 Indian customers** with the highest average discount in FY 2021  
+- 📊 Determined **Q2 2020** as the quarter with maximum total sold quantity  
+- 💰 Analyzed **gross sales contribution by channel** with percentage share  
+- 🏷️ Reported products with **highest and lowest manufacturing costs**
 
 ---
 
 ## 🛠️ Tools & Technologies
 
 - **Database**: MySQL
-- **Techniques**: CTEs, Joins, Aggregations, Window Functions
-- **Dataset Tables**:
-  - `fact_sales_monthly`
-  - `fact_gross_price`
-  - `fact_manufacturing_cost`
-  - `fact_pre_invoice_deductions`
-  - `dim_customer`
-  - `dim_product`
+- **Techniques Used**:
+  - Common Table Expressions (CTEs)
+  - Window Functions
+  - Aggregate Functions
+  - Multi-table Joins
+  - Filtering & Sorting
 
 ---
 
-## 📂 Folder Structure
+## 📁 Folder Structure
+
+```
+📁 SQL-Performance-Analysis/
+├── 📄 queries.sql          # All 10 project queries used in the analysis
+├── 📄 README.md            # Project documentation (you are here)
+└── 📄 Questions.pdf        # Original question document guiding the analysis
+```
+
+---
+
+## 📬 Contact Me
+
+If you have any questions, suggestions, or want to collaborate, feel free to reach out:
+
+- 🔗 [LinkedIn](https://www.linkedin.com/in/rohitkamble6458/)
+- 📧 rohitkamble6458@gmail.com 
+- 🛠️ [GitHub](https://github.com/Rohitkamble6458)
+
+---
 
