@@ -45,7 +45,7 @@ The project focuses on generating detailed insights to support data-driven decis
 📁 SQL-Performance-Analysis/
 ├── 📄 queries.sql          # All 10 project queries used in the analysis
 ├── 📄 README.md            # Project documentation (you are here)
-└── 📄 Questions.pdf        # Original question document guiding the analysis
+└── 📄 Questions-Requests.pdf        # Original question document guiding the analysis
 ```
 
 ---
