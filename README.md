@@ -1,4 +1,4 @@
-# 📊 Sales & Product Performance SQL Analysis
+# 📊 AtliQ's Sales Analytics Using SQL
 
 A comprehensive SQL analysis project designed to uncover business insights from a retail dataset using MySQL. This project applies advanced SQL techniques such as Common Table Expressions (CTEs), aggregations, joins, and window functions to explore product growth, customer behavior, and sales performance trends across different time periods and market segments.
 
